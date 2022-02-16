@@ -1,5 +1,5 @@
 <?php
-echo memory_get_usage() . "\n"; //
+//echo memory_get_usage() . "\n"; //
 header('Content-type: text/json; charset=utf-8'); //Указываем кодировку страницы
 include 'phpQuery/phpQuery.php';    //Подключаем phpQuery
 //setlocale(LC_ALL, 'rus');
